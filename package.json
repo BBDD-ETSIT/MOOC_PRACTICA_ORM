@@ -7,8 +7,8 @@
   "info": {
     "githubURL": "BBDD-ETSIT/MOOC_PRACTICA_ORM",
     "serverUrl": "https://moocbot.dit.upm.es/",
-    "courseId": "1521",
-    "assignmentId": "875"
+    "courseId": "127",
+    "assignmentId": "4"
   },
   "scripts": {
     "start": "node rest_server.js",
@@ -22,7 +22,7 @@
     "seed_test_db": "node_modules/.bin/cross-env NODE_ENV=test ./node_modules/.bin/sequelize db:seed:all"
   },
   "dependencies": {
-    "autocorector": "^3.1.6",
+    "autocorector": "^3.5.0",
     "body-parser": "~1.12.4",
     "cross-env": "^7.0.2",
     "ejs": "^3.0.1",
