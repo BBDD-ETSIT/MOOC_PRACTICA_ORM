@@ -7,8 +7,8 @@
   "info": {
     "githubURL": "BBDD-ETSIT/MOOC_PRACTICA_ORM",
     "serverUrl": "https://moocbot.dit.upm.es/",
-    "courseId": "127",
-    "assignmentId": "4"
+    "courseId": "344",
+    "assignmentId": "335"
   },
   "scripts": {
     "start": "node rest_server.js",
