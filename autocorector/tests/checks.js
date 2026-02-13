@@ -28,9 +28,10 @@ describe("P5_ORM_BBDD", function () {
     before('Create and populate testing database', async function() {
 
         try {
-            await exec('npm run create_test_db')
-            await exec('npm run migrate_test_db')
-            await exec('npm run seed_test_db')
+            await exec('npx sequelize db:create')
+            await exec('npx sequelize db:migrate')
+            await exec('npx sequelize db:seed:all')
+
 
 
             //let { stdout, stderr } = await exec(load_data)
