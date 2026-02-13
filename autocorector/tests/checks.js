@@ -32,6 +32,7 @@ describe("P5_ORM_BBDD", function () {
             await exec('npm run migrate_test_db')
             await exec('npm run seed_test_db')
 
+
             //let { stdout, stderr } = await exec(load_data)
             models = await models_lib.configure_db('orm_bbdd_test');
             Hospital = models.Hospital;
