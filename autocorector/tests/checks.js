@@ -35,7 +35,7 @@ describe("P5_ORM_BBDD", function () {
 
 
             //let { stdout, stderr } = await exec(load_data)
-            models = await models_lib.configure_db('orm_bbdd_test');
+            models = await models_lib.configure_db('orm_bbdd'); 
             Hospital = models.Hospital;
             Patient = models.Patient;
             Doctor = models.Doctor;
